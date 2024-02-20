@@ -1,0 +1,29 @@
+/* -------------------------------------------------
+>> Base Styles
+---------------------------------------------------
+>> Edit these styles as required
+------------------------------------------------- */
+
+body {
+
+	@include font(axi, reg, family weight);
+	position: relative;
+	font-size: var(--gb_font_size_3);
+	color: var(--gb_body_color);
+	background-color: var(--gb_body_bg);
+	line-height: 1.5;
+}
+
+p {
+	margin: 0 0 30px;
+}
+
+::selection {
+	color: var(--gb_highlight_color);
+	background-color: var(--gb_highlight_bg);
+}
+
+
+strong {
+	color: var(--gb_text_strong) !important;
+}
